@@ -76,10 +76,14 @@ class _RollingLetterState extends State<RollingLetter>
       curve: Curves.easeOut,
     ),
     );
-
-    _controller.forward().then((_) {
+    Future.delayed(widget.delay, (){
+    if (!mounted) return;
+      _controller.forward().then((_) {
+        if (!mounted)return;
       _bounceController.forward().then((_) {
+        if(!mounted) return;
         _bounceController.reverse();
+      });
       });
     });
 
@@ -110,7 +114,34 @@ class _SplashScreenState extends State<SplashScreen>{
   Widget build(BuildContext context){
     return Scaffold(
       body: Center(
-        child: RollingLetter(letter: 'R',delay: Duration(milliseconds: 350))
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children:[
+             RollingLetter(letter: 'R',
+                 delay: Duration(milliseconds: 350)),
+            RollingLetter(letter: 'e',
+                delay: Duration(milliseconds: 350)),
+            RollingLetter(letter: 'p',
+                delay: Duration(milliseconds: 350)),
+            RollingLetter(letter: '-',
+                delay:  Duration(milliseconds: 350)),
+            RollingLetter(letter: 'W',
+                delay:  Duration(milliseconds: 350)),
+            RollingLetter(letter: 'a',
+                delay:  Duration(milliseconds: 350)),
+            RollingLetter(letter: 't',
+                delay:  Duration(milliseconds: 350)),
+            RollingLetter(letter: 'c',
+                delay:  Duration(milliseconds: 350)),
+            RollingLetter(letter: 'h',
+                delay:  Duration(milliseconds: 350)),
+            RollingLetter(letter: 'e',
+                delay:  Duration(milliseconds: 350)),
+            RollingLetter(letter: 'r',
+                delay:  Duration(milliseconds: 350)),
+
+          ]
+        )
       )
     );
   }

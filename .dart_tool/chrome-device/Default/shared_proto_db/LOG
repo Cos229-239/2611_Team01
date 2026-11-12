@@ -1,9 +1,7 @@
-2026/11/11-16:04:24.466 a5e0 Reusing MANIFEST C:\Users\embry\AppData\Local\Temp\flutter_tools.2e488187\flutter_tools_chrome_device.6aece769\Default\shared_proto_db/MANIFEST-000001
-2026/11/11-16:04:24.466 a5e0 Recovering log #10
-2026/11/11-16:04:24.467 a5e0 Reusing old log C:\Users\embry\AppData\Local\Temp\flutter_tools.2e488187\flutter_tools_chrome_device.6aece769\Default\shared_proto_db/000010.log 
-2026/11/11-16:04:24.467 a5e0 Delete type=0 #3
-2026/11/11-16:04:24.467 a5e0 Delete type=0 #4
-2026/11/11-16:04:24.467 a5e0 Delete type=0 #7
-2026/11/11-16:04:34.553 a5e0 Level-0 table #14: started
-2026/11/11-16:04:34.559 a5e0 Level-0 table #14: 139406 bytes OK
-2026/11/11-16:04:34.561 a5e0 Delete type=0 #10
+2026/11/12-16:13:26.603 7a70 Reusing MANIFEST C:\Users\embry\AppData\Local\Temp\flutter_tools.935c6362\flutter_tools_chrome_device.41955a09\Default\shared_proto_db/MANIFEST-000001
+2026/11/12-16:13:26.603 7a70 Recovering log #13
+2026/11/12-16:13:26.603 7a70 Reusing old log C:\Users\embry\AppData\Local\Temp\flutter_tools.935c6362\flutter_tools_chrome_device.41955a09\Default\shared_proto_db/000013.log 
+2026/11/12-16:13:26.603 7a70 Delete type=0 #3
+2026/11/12-16:13:26.603 7a70 Delete type=0 #4
+2026/11/12-16:13:26.603 7a70 Delete type=0 #7
+2026/11/12-16:13:26.603 7a70 Delete type=0 #10
